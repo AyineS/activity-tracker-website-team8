@@ -1,0 +1,134 @@
+/* green and gold color palette */
+
+:root {
+    --green: #046A38;
+    --dark-green: #00482B;
+    --gold: #CBA052;
+    --light-gray: #f4f4f4;
+    --dark: #222222;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark);
+    background: white;
+}
+
+/* Header */
+
+header {
+    background: var(--green);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 6px solid var(--gold);
+}
+
+header h1 {
+    margin: 0 0 5px;
+}
+
+header p {
+    margin: 0;
+}
+
+/* Navigation */
+
+nav {
+    background: var(--dark-green);
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: var(--gold);
+}
+
+/* Main content */
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 45px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    color: var(--green);
+    border-bottom: 3px solid var(--gold);
+    padding-bottom: 8px;
+}
+
+/* Weekly reports */
+
+.report {
+    background: var(--light-gray);
+    border-left: 5px solid var(--green);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.report h3 {
+    color: var(--green);
+    margin-top: 0;
+}
+
+/* Team members */
+
+.team-member {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.team-member h3 {
+    margin-top: 0;
+}
+
+/* Requirements */
+
+li {
+    margin: 12px 0;
+}
+
+/* Footer */
+
+footer {
+    background: var(--dark-green);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+    main {
+        width: 92%;
+    }
+}

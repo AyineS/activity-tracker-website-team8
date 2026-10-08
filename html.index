@@ -3,10 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Activity Tracker</title>
+    <title>Fitness App Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+    <header>
+        <h1>RaiderTrainer</h1>
+    </header>
+
+    <nav>
+        <a href="#reports">Weekly Reports</a>
+        <a href="#team">Team Members</a>
+        <a href="#requirements">Project Requirements</a>
+    </nav>
+
+    <main>
+
+        <!-- WEEKLY REPORTS -->
+        <section id="reports">
+            <h2>Weekly Team Reports</h2>
+
+            <!-- COPY THIS ARTICLE WHEN YOU WANT TO ADD ANOTHER REPORT -->
+            <article class="report">
+                <h3>Week 1</h3>
+                <p><strong>Date:</strong> 8/31/2026</p>
+                <p>
+                    This week, we got together and prepared for the RaiderTrainer project.
+                    First, we held a virtual meeting and introduced each other to break the ice.
+                    After that, a shared calendar was created for future group meetings and a GitHub repository was made for the team to upload to for the project.
+                    Then, we had discussions on splitting up workload and overall group roles for future weeks and overall background research on the project.
+                    Next, we committed to slack as our main communication method and created new channels for organized messaging.
+                    Finally, we looked over the content for requirements and the project website in preparation for future development.
+                </p>
+            </article>
+
+            <article class="report">
+                <h3>Week 2</h3>
+                <p><strong>Date:</strong> 9/7/2026</p>
+                <p>
+                    This week we had two virtual meetings with our team, on Tuesday and Thursday.
+                    The first meeting we discussed the projects minimum requirements that have to be approved by the upcoming Monday.
+                    This allowed us time to prepare for our next meeting where we compared our different requirement pages.
+                    After finishing those, we spent some time on our own to do more research into different parts of the project.
+                    For example, looking into GitHub pages for future website use, provided starter code and future needed python libraries, and OCR using EasyOCR.
+                </p>
+            </article>
+
+            <article class="report">
+                <h3>Week 3</h3>
+                <p><strong>Date:</strong> 9/14/2026</p>
+                <p>
+                    This week we had our usual 2 virtual meetings on Tuesday and Thursday.
+                    During the first meeting we discussed our highest priority tasks and assigned tasks to each member.
+                    We then worked on our given tasks, and when our second meeting arrived we shared our progress, problems with our tasks, and our advice to each other on our respected tasks.
+                    Seniya worked on AprilTag detection portion of the RaiderTrainer project.
+                    Joe created python code for miscellaneous parts of the project, like rep counting and angle detection.
+                    Finally, Jack worked on the pose tracking and data collection code.
+                </p>
+            </article>
+
+            <article class="report">
+                <h3>Week 4</h3>
+                <p><strong>Date:</strong> 9/21/2026</p>
+                <p>
+                    This week we changed one of our meeting times from Thursday to Sunday and still had our usual Tuesday meeting.
+                    On Tuesday we regrouped from last week and discussed plans for the current week and decided to focus more on the pose tracking code.
+                    We changed our second meeting to Sunday to allow us to have some more time to work on the code before getting together to talk about it.
+                    We shared our updated code with the pose tracking, bare website, and start to the app's UI.
+                    At the end of the meeting we discussed our plans for the upcoming Oct 1 deadline.
+                </p>
+            </article>
+
+            <article class="report">
+                <h3>Week 5</h3>
+                <p><strong>Date:</strong> 9/28/2026</p>
+                <p>
+                    This week our group had a meeting on Tuesday and Thursday.
+                    While preparing for the mid semester check on October 1st, Joe and Seniya were testing our project in the class room on Tuesday.
+                    Sean noticed our project was progressing nicely and was able to check our group off early.
+                    During our meeting on Thursday we discussed the SRS document and further project needs, assigning tasks needed to be completed.
+                    We each also worked on our own separate parts of the project, including pose tracking program, updating the project requirements, AprilTag portion, RaiderTrainer UI, admin account features, and the basics of the website.
+                </p>
+            </article>
+
+            <!--
+            ADD MORE REPORTS HERE.
+
+            Example:
+
+            <article class="report">
+                <h3>Week 2</h3>
+                <p><strong>Date:</strong> September 12, 2026</p>
+                <p>
+                    Write your Week 2 report here.
+                </p>
+            </article>
+            -->
+
+        </section>
+
+
+        <!-- TEAM MEMBERS -->
+        <section id="team">
+            <h2>Team Members</h2>
+
+            <!-- Replace these with your actual team members -->
+
+            <div class="team-member">
+                <h3>Seniya Senanayake</h3>
+                <p>Role: ____________________</p>
+                <p>Email: ____________________</p>
+            </div>
+
+            <div class="team-member">
+                <h3>Jack Thompson</h3>
+                <p>Role: ____________________</p>
+                <p>Email: ____________________</p>
+            </div>
+
+            <div class="team-member">
+                <h3>Joe Asbill</h3>
+                <p>Role: ____________________</p>
+                <p>Email: ____________________</p>
+            </div>
+
+            <!-- Add more team members by copying a team-member div -->
+
+        </section>
+
+
+        <!-- PROJECT REQUIREMENTS -->
+        <section id="requirements">
+            <h2>Project Requirements</h2>
+
+            <ul>
+                <li>Add requirement here</li>
+                <li>Add requirement here</li>
+                <li>Add requirement here</li>
+            </ul>
+
+            <!-- Add more requirements as needed -->
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&mdash; RaiderTrainer Project &mdash;</p>
+    </footer>
 
 </body>
 </html>
